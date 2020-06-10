@@ -8,7 +8,6 @@ RSpec.describe 'something' do
   let(:poa) { FactoryBot.create :post, :approved }
 
   it do
-    binding.pry
     expect(po.ref).to be_present
     expect(poa.ref).to be_present
   end
